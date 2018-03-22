@@ -1,0 +1,35 @@
+# Applications Developer
+# https://github.com/applicationsdev
+
+# Line endings get normalized in text/script files
+* text=auto
+
+# Exclude from above normalization-processing
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# Linguist-language description for primary file types
+*.py linguist-language=Python
+
+# Linguist-vendor description for commited directories
+*/public/* linguist-vendored
+*/content/* linguist-vendored
+
+# Linguist-vendor description for commited file types
+*.css linguist-vendored
+*.scss linguist-vendored
+*.less linguist-vendored
+*.map linguist-vendored
+*.xml linguist-vendored
+*.txt linguist-vendored
+*.json linguist-vendored
+*.js linguist-vendored
+*.html linguist-vendored
+
+# Documentation files
+# Linguist-documentation description for commited directories & file types
+.documentation/* linguist-documentation
+*.md linguist-documentation
