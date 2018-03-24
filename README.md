@@ -8,7 +8,7 @@ coming soon..
 ### Resources - References
 - [Python](https://www.python.org/)
 - [Django](https://www.djangoproject.com/)
-
+- [Django REST framework](http://www.django-rest-framework.org/)
 - [SQLite](https://www.sqlite.org/index.html)
 
 ### License
