@@ -1,5 +1,6 @@
 from django.db import models
 
+# Models definitions
 class Product(models.Model):
     id = models.AutoField(primary_key=True)
     sku = models.CharField(max_length=60)
