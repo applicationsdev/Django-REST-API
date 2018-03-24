@@ -25,7 +25,8 @@ SECRET_KEY = '(g#l_7fmyu08j4q@h@_@x4dsfb4!um!okf2v0umqo*t3*=+jar'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# SECURITY WARNING: specify ALLOWED_HOSTS in production!
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
